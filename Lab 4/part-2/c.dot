@@ -1,0 +1,4 @@
+diagraph BST{
+	node [fontsize=11 fontname="Helvetixca"];
+	edge [arrowhead=vee];
+}

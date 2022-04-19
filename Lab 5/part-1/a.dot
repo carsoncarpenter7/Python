@@ -1,0 +1,21 @@
+digraph BST{
+	node [fontname="Helvetica"];
+	13 [style="filled" fillcolor="red"]
+	13 -> 11;
+	11 [style="filled" fillcolor="red"]
+	11 -> 8;
+	8 [style="filled" fillcolor="red"]
+	8 -> 7;
+	7 [style="filled" fillcolor="red"]
+	7 -> 5;
+	5 [style="filled" fillcolor="red"]
+	5 -> 4;
+	4 [style="filled" fillcolor="red"]
+	4 -> 2;
+	2 [style="filled" fillcolor="red"]
+	2 -> 1;
+	null1 [shape=point];
+	1 -> null1;
+	null2 [shape=point];
+	1 -> null2;
+}

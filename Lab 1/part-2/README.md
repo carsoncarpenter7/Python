@@ -1,0 +1,24 @@
+# CPSC 223p
+## Binary Values to Characters
+
+
+
+Write a program named `bin2char.py` that reads a string representing the binary representation of a string's ASCII values from the command line (`sys.argv`) and then converts and prints the string as ASCII representation. In essence, a utility to convert the output from part 1 back into its original form. For example, the program is executed with the following command and yields the output as demonstrated:
+
+```
+$ ./bin2char.py 01010011 01100001 01101100 01100001
+01110010 01111001 00100000 01101001 01110011 00100000 01101110
+01101111 00100000 01101111 01100010 01101010 01100101 01100011
+01110100 00111010 00100000 01001001 00100000 01110111 01100001
+01101110 01110100 00100000 01101111 01101110 01101100 01111001
+00100000 01100101 01101110 01101111 01110101 01100111 01101000
+00100000 01110100 01101111 00100000 01101011 01100101 01100101
+01110000 00100000 01100010 01101111 01100100 01111001 00100000
+01100001 01101110 01100100 00100000 01110011 01101111 01110101
+01101100 00100000 01100001 01110000 01100001 01110010 01110100
+00101110
+
+Salary is no object: I want only enough to keep body and soul apart.
+```
+
+Consider using the built-in functions `chr`, and `int`.
